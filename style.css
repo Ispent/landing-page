@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body {
@@ -16,7 +15,7 @@ body {
 }
 .header .logo {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .header a,
@@ -35,17 +34,39 @@ body {
   padding: 3px 22px;
 }
 
-
-.body-3 {
-  background: #3882F6;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300;1,400&display=swap');
-
-html, body {
-  height: 100%;
+.contents {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
 }
 
-body {
-  font-family: Roboto, sans-serif;
->>>>>>> Stashed changes
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-side {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-lower {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.top-image {
+  display: flex;
+}
+.body-3 {
+  background: #3882F6;
 }
