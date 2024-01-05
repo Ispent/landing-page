@@ -2,6 +2,8 @@
 
 body {
   font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -151,9 +153,19 @@ a {
 
 .call
 .bold {
-  font-weight: 700;
+  font-weight : 700;
 }
 
 .signup-button2 {
   border: 2px solid;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #1f2937;
+  margin: 0;
+  padding: 15px;
+  color: #fff;
 }
